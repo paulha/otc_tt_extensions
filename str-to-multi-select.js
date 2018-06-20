@@ -3,5 +3,6 @@ var outputTypes = 'Multi Select';
 
 
 function transform(context, input) {
-   return [input]
+    // String --> Array of Strings
+    return [input]
 }
