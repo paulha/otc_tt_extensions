@@ -11,7 +11,7 @@ var outputTypes = 'Location';
 
 function transform(context, input) {
    // returns the result of the transformation
-   var result = input.replace("Configuration-Context", "oslc.context");
-   console.log("patch_to_oslc_context: '"+input+"'-->'"+result+"'")
+   var result = input.replace("Configuration-Context", "oslc_config.context");
+   console.log("patch_to_oslc_config_context: '"+input+"'-->'"+result+"'")
    return result
 }
