@@ -5,8 +5,8 @@
 // Multi Select, Relationship, Relationships, Rich Text, Single Select, String
 // Web Links
 //
-var inputTypes = 'String';
-var outputTypes = 'Location';
+var inputTypes = 'Location';
+var outputTypes = 'String';
 
 
 function transform(context, input) {
